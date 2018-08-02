@@ -14,14 +14,16 @@ Summary: Cardoso's JADE algorithm as well as his functions for joint diagonaliza
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-jade-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-jade-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-jade-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-jade-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-jade-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-jade-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-jade-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-jade-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-jade-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-jade-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-jade-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-jade-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-jade/badges/version.svg)](https://anaconda.org/conda-forge/r-jade)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-jade/badges/downloads.svg)](https://anaconda.org/conda-forge/r-jade)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--jade-green.svg)](https://anaconda.org/conda-forge/r-jade) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-jade.svg)](https://anaconda.org/conda-forge/r-jade) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-jade.svg)](https://anaconda.org/conda-forge/r-jade) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-jade.svg)](https://anaconda.org/conda-forge/r-jade) |
 
 Installing r-jade
 =================
