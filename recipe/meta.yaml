@@ -16,25 +16,24 @@ source:
   sha256: b2fca64728e78c554b95dd153f183c3a0b9b339f78b50bd6ec2fab28b2c16c95
 
 build:
-  number: 1
-  skip: true  # [win32]
-
+  merge_build_host: True   # [win]
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
 
 requirements:
   build:
-    - r-base
-    - r-clue
     - posix                # [win]
     - {{native}}toolchain  # [win]
-    - gcc                  # [not win]
-
+    - {{ compiler('cxx') }}  # [not win]
+    - {{ compiler('fortran') }}  # [not win]
+  host:
+    - r-base
+    - r-clue
   run:
     - r-base
     - r-clue
-    - libgcc  # [not win]
 
 test:
   commands:
