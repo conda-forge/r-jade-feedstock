@@ -3,6 +3,7 @@ About r-jade-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-jade-feedstock/blob/main/LICENSE.txt)
 
+
 About r-jade
 ------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=JADE
 Package license: GPL-2.0-or-later
 
 Summary: Cardoso's JADE algorithm as well as his functions for joint diagonalization are ported to R. Also several other blind source separation (BSS) methods, like AMUSE and SOBI, and some criteria for performance evaluation of BSS algorithms, are given. The package is described in Miettinen, Nordhausen and Taskinen (2017) <doi:10.18637/jss.v076.i02>. 
+
 About r-jade
 ------------
 
